@@ -6,7 +6,9 @@ For new users
 https://watch.screencastify.com/v/KnxrbMxlNc0doa1qBiug
 
 For existing users 
+
 pt1: https://watch.screencastify.com/v/XQlONZp7xs95OInhT3fL
+
 pt2: https://watch.screencastify.com/v/KmvKcZzYK1ZVh7e5NBET
 
 bad request example
