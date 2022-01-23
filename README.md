@@ -1,32 +1,26 @@
 # Tech Blog
 
 ## Demo
-![This is a video](/public/images/videodemo.gif)
+Please click on link for demo 
+For new users 
+https://watch.screencastify.com/v/KnxrbMxlNc0doa1qBiug
+
+For existing users 
+pt1: https://watch.screencastify.com/v/XQlONZp7xs95OInhT3fL
+pt2: https://watch.screencastify.com/v/KmvKcZzYK1ZVh7e5NBET
+
+bad request example
+https://watch.screencastify.com/v/Vxzx8C9J5zEoS6kfCa7y
 ## Description
-This project serves to explore available rental properties across the United States. As some companies adopt a work from home policy, many people have used this opportunity to move to other cities. Our project facilitates this search. 
+The application is a tech blog . A user can sign up to add, edit, post, or delete an blog entry. 
 
-Our motivation was to challenge ourselves by improving on the idea of our first project, by building the front and back end to produce full application our users can interact with. 
+The user is presented with a landing page . The will be presented with post from all users . The user can read the post and comment but will not be able to add any post unless the log in. 
 
-We built a functioning, useful, and fully deployed application. The purpose of creating Rental Finders is to produce an application for users who are looking for a new home. Inspired by the California exodus, we thought of an easy to use property search website. We believe this would be useful for this current trend . The easy to navigate platform and asthetically pleasing user interface will entice the user to engage with this application for their future home search. 
+The user will see options to sign in or sign up. Once a user is signed in they will be navigated to a dashboard where they can add a post. If the user is a returning user their past blog entries will be displayed in their dashboard. The user can edit, post, or delete any of their post. The will not be able to edit delete or add a post under another username, but they can add comment other users post. 
 
-- What problem does it solve?
 
-By building the back end of our application we were able to retreive listing data and create/store our user data to create authentication. 
-
-- What did you learn?
-
-We learned how to utilize Express.js to handle different methods in an API routes. This allowed us to handle reponses that the client requests .  With Express.js we handled our GET and POST request.
-we also learned how to implement SQL for our database and seed the database. In addition creating and seeding the database, we used Sequelize to communicate with mySQL.
-Another subject we learned and implemented was Model-View-Controller. We structured our codebase in three different sections, exercising the philsophy known as seperation of concerns. In the Model we structured our database and logic for data retrieval . In Model is where we implemented Sequelize (ORM) for database queries.  In the View, we dynamically generated HTML using Handlebar.js templete engine. Finally, in Controller we seperated the client-side and the server-side routes . The Controller handler user input and interacts with Model to Create, Read, Update, and Delete (CRUD)
-
-## Table of Contents (Optional)
-If your README is long, add a table of contents to make it easy for users to find what they need.
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
 ## Installation
-The project was uploaded to GitHub at the following repository:  https://github.com/asharif123/rental-finder
+The project was uploaded to GitHub at the following repository: https://github.com/Dlelias/tech_blog
 
 You can access the deployed application with the Heroku link: https://rental-finders.herokuapp.com
 
@@ -46,24 +40,6 @@ npm test
 
 After the installation is complete. 
 
-Create database. This step can be done in your terminal or using a GUI. In this example the Schema is created via Sequel Pro 
-![This is a video](/public/images/run_schema.gif)
-
-After the database is create run NPM test in your terminal
-![This is a video](/public/images/P2Terminal.gif)
-## Usage
-
-This is the Homepage. If The user exisit they will have the option to login in or if they are a new user they will have the option to sign up
-![This is a video](/public/images/homepage.gif)
-
-Once the user is logged in they can begin their search using City, State, and a budget range from minimum to maximum 
-![This is an image](/public/images/searchpage.png)
-
-When the user selects search they will be directed to their results
-![This is an image](/public/images/resultspage.png)
-
-The user results will be displayed and the user will have the option to view photos of the properties. 
-![This is a video](/public/images/viewresults.png)
 
 Copyright (c) 2021 
 
