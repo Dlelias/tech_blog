@@ -24,7 +24,7 @@ The user will see options to sign in or sign up. Once a user is signed in they w
 ## Installation
 The project was uploaded to GitHub at the following repository: https://github.com/Dlelias/tech_blog
 
-You can access the deployed application with the Heroku link: https://rental-finders.herokuapp.com
+You can access the deployed application with the Heroku link: https://pure-headland-14978.herokuapp.com/login
 
 To install the project follow these steps:
 
